@@ -11,43 +11,52 @@
             margin: 0;
             padding: 20px;
             box-sizing: border-box;
-            max-width: 100%;
-            word-wrap: break-word;
             text-align: center;
-            background-color: #f9f9f9;
+            background: linear-gradient(135deg, #ffe6f2, #f9f0ff);
+            color: #4d004d;
         }
         h1 {
-            font-size: 32px;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 28px;
+            margin-top: 40px;
             margin-bottom: 20px;
         }
         .form-button {
-            background-color: #ffca28;
+            background-color: #ff85c1;
             border: none;
-            padding: 12px 24px;
-            font-size: 18px;
-            border-radius: 10px;
+            padding: 14px 28px;
+            font-size: 20px;
+            border-radius: 30px;
             cursor: pointer;
             margin-bottom: 30px;
-            transition: background-color 0.3s;
+            color: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: background-color 0.3s, transform 0.2s;
         }
         .form-button:hover {
-            background-color: #ffc107;
+            background-color: #ff66a3;
+            transform: scale(1.05);
         }
         iframe {
             width: 100%;
             height: 600px;
-            border: 1px solid #ccc;
-            border-radius: 8px;
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            background: white;
         }
     </style>
 </head>
 <body>
-    <h1>My Diary</h1>
+    <h1>💖 My Diary 💖</h1>
     <button class="form-button" onclick="window.open('https://airtable.com/appIl5pNtso6hkd8M/pag9vfrWMeNEVlHWS/form', '_blank')">
-        Add New Entry ✏️
+        Add New Entry ✨
     </button>
 
-    <h2>Past Entries</h2>
+    <h2>🌷 Past Entries 🌷</h2>
     <iframe class="airtable-embed" src="https://airtable.com/embed/appIl5pNtso6hkd8M/shraJpbxAT7rrNVqe?viewControls=on" frameborder="0"></iframe>
 </body>
 </html>
